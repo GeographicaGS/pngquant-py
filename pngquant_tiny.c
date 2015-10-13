@@ -6,7 +6,7 @@
 #include "pngquant/lib/pam.h"
 
 #define GAMMA 0.45455
-#define FAST_COMPRESSION 1
+#define FAST_COMPRESSION 3
 
 void
 read_image(liq_attr *attr, FILE *source, png24_image *png, liq_image **image)
